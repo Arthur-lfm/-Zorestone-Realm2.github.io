@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background:#000;
+  scroll-behavior: smooth;
+}
+section
+{
+  width:1em;
+  font-family: 'Press Start 2P';
+  font-size: 0.8vw;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background:#000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+body
+{
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar__links {
+  cursor: default;
+}
+.logo0:hover{
+  width : 105px;
+}
+.first:hover, .second:hover, .third:hover{
+  font-weight: bold;
+}
+.logo0
+{
+  padding: 20px;
+  width:100px;
+}
+section h2
+{
+  font-size: 6em;
+  color: #fff;
+  font-weight:500;
+}
+.fondEcran
+{
+  width: 100vw;
+  height: 100vh;
+}
+.box
+{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  padding:100px;
+  background:#fff;
+}
+.box h2
+{
+  font-size: 3.5vw;
+  background:#fff;
+}
+.box .logo
+{
+  max-width:300px;
+  background:#fff;
+}
+
+.box2
+{
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  opacity: 1;
+  background:#fff;
+}
+.box2-2
+{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 100px;
+  background:#000;
+}
+.box2 h2
+{
+  font-size: 3.5vw;
+  color: #fff;
+}
+
+
+.box3
+{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    background:#000;
+}
+.box3 h2
+{
+  font-size: 3.5vw;
+  color: #fff;
+}
+
+.box4
+{
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 18vw 0 0 0;
+  background:#000;
+}
+
+.img1, .img2, .img3, .img4
+{
+  margin-left: 7vw;
+  max-width: 275px;
+  width: 15vw;
+}
+.box6
+{
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 26vw 0 0 0;
+  background:#000;
+}
+.img5, .img6, .img7, .img8
+{
+  margin-left: 12vw;
+  max-width: 275px;
+  width: 9vw;
+}
+
+.box5
+{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background:#000;
+}
+.imgmac
+{
+  z-index: 9;
+  position:absolute;
+  top: -14vh;
+  left: -17.5vw;
+  width: 135vw;
+  height: 135vh;
+  background: rgba(0, 0, 0, 0);
+}
+.imgselect
+{
+  z-index: 5;
+  position:relative;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0);
+}
+.imgmac2
+{
+  z-index: 9;
+  position:absolute;
+  top: 33.2vh;
+  right: 5vw;
+  width: 40.5vw;
+  height: 40.5vh;
+  background: rgba(0, 0, 0, 0);
+}
+.imgselect2
+{
+  z-index: 5;
+  position: absolute;
+  top: 36vh;
+  right: 10.2vw;
+  width: 30vw;
+  height: 30vh;
+  background: rgba(0, 0, 0, 0);
+}
+.box5 h2
+{
+  position:absolute;
+  top: 15vh;
+  left: 30vw;
+  font-size: 3.5vw;
+  color: #fff;
+}
+
+.box10
+{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  padding-top: 15vh;
+  text-align: center;
+  background:#fff;
+}
+.box10 h2
+{
+    font-size: 4vw;
+    color: #000;
+    background:#fff;
+}
+a
+{
+  background: rgba(0, 0, 0, 0);
+}
+.download
+{
+    padding-top: 10%;
+    width: 20vw;
+    background: rgba(0, 0, 0, 0);
+    margin-right: 10vw;
+}
+.rapport
+{
+    padding-top: 10%;
+    width: 20vw;
+    background: rgba(0, 0, 0, 0);
+}
+.text12
+{
+  position: absolute;
+  left: 28vw;
+}
+.text13
+{
+  position: absolute;
+  right:24vw;
+}
+.download:hover, .rapport:hover
+{
+    width: 21vw;
+}
+
+/* Variables */
+:root {
+  --font-size:1rem;
+}
+.light-mode {
+  --navbar-color: #222;
+  --navbar-bg-color: #F0F0F0;  
+}
+.dark-mode {
+  --navbar-color: #FFF;
+  --navbar-bg-color: rgba(0, 0, 0, 0.842);
+}
+
+/* Reset */
+ul {
+  list-style:none;
+}
+
+
+/* Navbar */
+.navbar {
+  height: 50px;
+  z-index: 1000;
+  position: sticky;
+  top: 0px;
+  display:flex;
+  align-items:center; 
+  justify-content:center;   /**/
+  font-size:1.1rem;
+  background:var(--navbar-bg-color);
+  color:var(--navbar-color);
+}
+.logo0, .navbar__logo{
+  padding-top: 20px;
+  background: rgba(0, 0, 0, 0);
+}
+.first, .second, .third{
+  background: rgba(0, 0, 0, 0);
+}
+.navbar__link first, .navbar__link second, .navbar__link third{
+  background: rgba(0, 0, 0, 0);
+}
+.navbar__links { 
+  background: rgba(0, 0, 0, 0);
+  display:flex;  
+}
+.navbar__link {
+  padding:0 10px;
+  background: rgba(0, 0, 0, 0);
+}
+.navbar__link > a { 
+  color:var(--navbar-color);
+  text-decoration:none;
+  background: rgba(0, 0, 0, 0);
+}
+.burger {
+  display:none;
+}
